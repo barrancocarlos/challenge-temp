@@ -11,8 +11,6 @@ const x = d3
 
 const y = d3.scaleSqrt().range([maxRadius * 0.1, maxRadius]);
 
-// sunlight style guide network colors
-// https://github.com/amycesal/dataviz-style-guide/blob/master/Sunlight-StyleGuide-DataViz.pdf
 const dark = [
   '#0077b6'
 ];
@@ -77,12 +75,7 @@ const svg = d3
   .attr('viewBox', `${-width / 2} ${-height / 2} ${width} ${height}`)
   .on('click', () => focusOn()); // Reset zoom on canvas click
 
-d3.json(
-  'https://gist.githubusercontent.com/mbostock/4348373/raw/85f18ac90409caa5529b32156aa6e71cf985263f/flare.json',
-  (error, root) => {
-    if (error) throw error;
-
-    root = d3.hierarchy(root);
+    root = d3.hierarchy(nodeData);
     root.sum(d => d.size);
 
     const slice = svg.selectAll('g.slice').data(partition(root).descendants());
@@ -135,8 +128,8 @@ d3.json(
       .attr('xlink:href', (_, i) => `#hiddenArc${i}`)
       .text(d => d.data.name)
       .style('fill', 'white');
-  }
-);
+  
+
 
 function focusOn(d = {
   x0: 0,

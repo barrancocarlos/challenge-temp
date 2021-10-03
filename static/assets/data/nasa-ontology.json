@@ -1,0 +1,1103 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Administration"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Budgeting"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Plannning"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engines"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Filters"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machinery"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Pumps"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Springs"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Valves"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Gas_dynamics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Heat_exchangers"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radiators"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Information_Systems"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Internet_Resources"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network_Analysis"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Software"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Maintenance"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Manufacturing"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Repair"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microwave"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Navigation"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radars"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radio"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Sattelites"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aerospace_Agreements"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Diplomacy"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Policy"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Algorithms"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Calculus"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Matrices"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Analysis"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Design"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Elements"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Testing"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Asteroids"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Celestial_Bodies"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Galaxies"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Moons"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planets"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Stars"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Telescopes"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Asteroids"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Comets"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetology"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Roving_Vehicles"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Solar_System"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Exploration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Lasers"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Chemistry"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Earth_Science"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physics"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Automata_Theory"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Vision"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machine_Learning"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Neural_Networks"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aviation_Law"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Law"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Patent_Policy"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Law"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Bayesian_statistics"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Data_Sampling"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Prediction_Analysis"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Probability"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Regression_Analysis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Biology"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Ecology"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microbiology"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Black_Holes"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Galaxies"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nuclear"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Orbits"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Stars"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Circuits"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Converters"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Inductors"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Isolators"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Switches"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transistors"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transmission"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Cost_Analysis"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economic_Impacts"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Insurance"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Detectors"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Measuring"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Photography"
+    }, {
+      "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Remote_Sensors"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Administration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aerospace_Agreements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Algorithms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Analysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Asteroids",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+  }, {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"
+  }, {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Automata_Theory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aviation_Law",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Bayesian_statistics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Biology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Black_Holes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Budgeting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Calculus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Celestial_Bodies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Chemistry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Circuits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Comets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Vision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Converters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Cost_Analysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Data_Sampling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Design",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Detectors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Earth_Science",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Ecology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economic_Impacts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Elements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Filters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_dynamics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_dynamics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Galaxies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+  }, {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Gas_dynamics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Heat_exchangers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Inductors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Information_Systems",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Insurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Diplomacy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Law",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Internet_Resources",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Isolators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Laser_Applications",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Lasers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Lasers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machine_Learning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machinery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Maintenance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Manned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Unmanned"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Manufacturing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Matrices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Measuring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microbiology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microwave",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Moons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Navigation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network_Analysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Neural_Networks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nuclear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Orbits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Patent_Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Photography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Plannning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Prediction_Analysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Probability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Pumps",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radiators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Regression_Analysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Remote_Sensors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Repair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Roving_Vehicles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Sattelites",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Software",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Solar_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Exploration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Law",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Springs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Stars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+  }, {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Switches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Telescopes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Testing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transistors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transmission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Unmanned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Valves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"
+  } ]
+} ]

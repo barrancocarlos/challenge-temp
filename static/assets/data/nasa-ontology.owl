@@ -1,0 +1,1224 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#"
+     xml:base="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Administration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Administration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aerospace_Agreements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aerospace_Agreements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Algorithms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Algorithms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Asteroids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Asteroids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Automata_Theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Automata_Theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aviation_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aviation_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Bayesian_statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Bayesian_statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Black_Holes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Black_Holes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Budgeting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Budgeting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Calculus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Calculus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Celestial_Bodies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Celestial_Bodies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Circuits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Circuits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Comets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Comets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Vision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Vision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Converters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Converters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Cost_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Cost_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Data_Sampling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Data_Sampling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Detectors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Detectors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Earth_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Earth_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Ecology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Ecology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economic_Impacts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economic_Impacts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Filters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Filters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_dynamics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_dynamics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_dynamics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Galaxies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Galaxies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Gas_dynamics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Gas_dynamics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Heat_exchangers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Heat_exchangers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Inductors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Inductors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Information_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Information_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Diplomacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Diplomacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Internet_Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Internet_Resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Isolators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Isolators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Laser_Applications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Laser_Applications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Lasers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Lasers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Lasers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machine_Learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machine_Learning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machinery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machinery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Maintenance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Manned -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Manned">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Unmanned"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Manufacturing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Manufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Matrices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Matrices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Measuring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Measuring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microbiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microbiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microwave -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microwave">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Moons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Moons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Navigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Navigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Neural_Networks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Neural_Networks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nuclear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nuclear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Orbits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Orbits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Patent_Policy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Patent_Policy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Photography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Photography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physical_science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Plannning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Plannning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Prediction_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Prediction_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Pumps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Pumps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radiators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radiators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Regression_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Regression_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Remote_Sensors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Remote_Sensors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Repair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Repair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aircrafts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Roving_Vehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Roving_Vehicles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Sattelites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Sattelites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Solar_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Solar_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Exploration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Exploration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Policy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Policy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nasa_Datasets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Springs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Springs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Stars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Stars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Switches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Switches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Telescopes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Telescopes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transistors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transistors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Unmanned -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Unmanned">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Flights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Valves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Valves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Administration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Budgeting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Plannning"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aeronautics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Communications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Fluid_Mechanics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Instrumentation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Lasers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mechanical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Structural_Mechanics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Thermodynamics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Electronics/Electrical"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aerospace_Agreements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Diplomacy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Policy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Algorithms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Calculus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Matrices"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Analysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Design"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Elements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Testing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Artificial_Intelligence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Programming"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Statistics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Theoretical_Mathematics"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Asteroids"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Celestial_Bodies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Galaxies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Moons"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planets"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Stars"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Telescopes"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Asteroids"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Comets"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Roving_Vehicles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Solar_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Exploration"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astrophysics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Planetary_Science"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Astronomy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Earth_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Physics"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Automata_Theory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Computer_Vision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machine_Learning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Neural_Networks"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Aviation_Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#International_Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Patent_Policy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Law"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Bayesian_statistics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Data_Sampling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Prediction_Analysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Probability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Regression_Analysis"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Ecology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microbiology"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Black_Holes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Galaxies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Nuclear"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Orbits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Stars"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Circuits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Converters"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Inductors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Isolators"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Switches"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transistors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Transmission"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Cost_Analysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economic_Impacts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Insurance"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Detectors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Measuring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Photography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Remote_Sensors"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Economics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Political_Science"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Mathematical_and_Computer_Sciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Natural_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Social_and_Information_Sciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Space_Science"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Engines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Filters"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Machinery"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Pumps"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Springs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Valves"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Gas_dynamics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Heat_exchangers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radiators"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Information_Systems"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Internet_Resources"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network_Analysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Software"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Maintenance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Manufacturing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Repair"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Microwave"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Navigation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Network"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radars"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Radio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/barranco/ontologies/2021/9/nasa-ontology#Sattelites"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

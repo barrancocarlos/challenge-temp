@@ -10,29 +10,17 @@
         <!-- Nav items -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}" href="{% url 'home' %}">
-              <i class="ni ni-tv-2 text-primary"></i>
-              <span class="nav-link-text">Home</span>
+            <a class="nav-link" href="https://nasa-spaceapps.barrancoweb.com/">
+              <i class="ni ni-chart-bar-32 text-primary"></i>
+              <span class="nav-link-text">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% if request.resolver_match.url_name == 'datasets' %}active{% endif %}" href="{% url 'datasets' %}">
+            <a class="nav-link" href="https://nasa-spaceapps.barrancoweb.com/datasets/">
               <i class="ni ni-planet text-orange"></i>
               <span class="nav-link-text">Datasets Visualization</span>
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="examples/map.html">
-              <i class="ni ni-pin-3 text-primary"></i>
-              <span class="nav-link-text">Network</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="examples/profile.html">
-              <i class="ni ni-single-02 text-yellow"></i>
-              <span class="nav-link-text">Data Files</span>
-            </a>
-          </li>            
+          </li>                  
         <!-- Divider -->
         <hr class="my-3">
         <!-- Heading -->
@@ -42,11 +30,23 @@
         <!-- Navigation -->
         <ul class="navbar-nav mb-md-3">
           <li class="nav-item">
-            <a class="nav-link marg-left" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html" target="_blank">
+            <a class="nav-link marg-left" href="https://github.com/barrancocarlos" target="_blank">
               <i class="ni ni-spaceship"></i>
               <span class="nav-link-text">Github</span>
             </a>
-          </li>         
+          </li>
+          <li class="nav-item">
+            <a class="nav-link marg-left" href="https://nasa-spaceapps.barrancoweb.com/static/assets/data/nasa-ontology.owl" target="_blank">
+              <i class="ni ni-collection"></i>
+              <span class="nav-link-text">Ontology RDF</span>
+            </a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link marg-left" href="https://nasa-spaceapps.barrancoweb.com/static/assets/data/nasa-ontology.json" target="_blank">
+              <i class="ni ni-collection"></i>
+              <span class="nav-link-text">Ontology JSON</span>
+            </a>
+          </li>        
         </ul>
       </div>
     </div>

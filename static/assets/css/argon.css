@@ -27545,3 +27545,15 @@ input.datetimepicker[data-color='yellow']+.bootstrap-datetimepicker-widget.dropd
     color: #596ea1;
     font-size: 32px;
 }
+
+.viz-title {
+    padding-top: 15px;
+}
+
+.space-img {
+    width: 50%;
+}
+
+.logo-center {
+    text-align: center;
+}
