@@ -1,6 +1,8 @@
 from django.conf.urls import url
 from django.views.generic import TemplateView
+from nebula import views
 
-urlpatterns = [
-    url('^$', TemplateView.as_view(template_name='index.html')),
+urlpatterns = [    
+    url('^$', views.home, name='home'),
+    url('^datasets/$', views.datasets, name='datasets'),
 ]

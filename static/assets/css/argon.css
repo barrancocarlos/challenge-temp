@@ -27539,3 +27539,9 @@ input.datetimepicker[data-color='yellow']+.bootstrap-datetimepicker-widget.dropd
     max-width: none; 
     max-height: 58px;
 }
+
+.logo-nav {
+    padding-top: 25px;
+    color: #596ea1;
+    font-size: 32px;
+}
