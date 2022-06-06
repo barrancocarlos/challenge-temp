@@ -1,16 +1,16 @@
 # Nebula. Space Apps Challenge 2021
 
-![Alt Text](https://github.com/barrancocarlos/ionic-test/blob/master/src/public/ionic.jpg)
+![Alt Text](https://github.com/barrancocarlos/nebula-spaceapps/blob/main/static/assets/img/theme/python.jpg)
 
 Nebula is a Data Visualization App that will allow millions of potential users to navigate through the tens of thousands of NASA datasets that are publicly available online. The app will give students, professionals and space enthusiasts a place to start connecting with all the information NASA has to offer.
 
 _App screen capture_
 
-![Alt Text](https://github.com/barrancocarlos/agroconnect/blob/main/public/assets/img/video.gif)
+![Alt Text](https://github.com/barrancocarlos/nebula-spaceapps/blob/main/static/assets/img/theme/nebula-home.png)
 
 _Youtube Presentation_
 
-![Alt Text](https://github.com/barrancocarlos/agroconnect/blob/main/public/assets/img/video.gif)
+[![Alt Text](https://github.com/barrancocarlos/nebula-spaceapps/blob/main/static/assets/img/theme/youtube.jpg)](https://www.youtube.com/watch?v=GwhijugkqIo&ab_channel=CarlosBarranco)
 
 ## Getting Started
 
