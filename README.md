@@ -4,6 +4,8 @@
 
 Nebula is a Data Visualization App that will allow millions of potential users to navigate through the tens of thousands of NASA datasets that are publicly available online. The app will give students, professionals and space enthusiasts a place to start connecting with all the information NASA has to offer.
 
+The Nebula App was a Space Apps 2021 Global Nominee. These projects represent the top projects from among the local virtual events and the Universal Event.
+
 _App screen capture_
 
 ![Alt Text](https://github.com/barrancocarlos/nebula-spaceapps/blob/main/static/assets/img/theme/nebula-home.png)
